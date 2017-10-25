@@ -1,0 +1,9 @@
+{
+	"languages": [
+		{"name": "Python", "years": 4},
+		{"name": "Javascript", "years": 2},
+		{"name": "Typescript", "years": 1},
+		{"name": "SQL", "years": 6},
+		{"name": "VBA", "years": 6}
+	]
+}
