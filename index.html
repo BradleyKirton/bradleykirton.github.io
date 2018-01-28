@@ -34,6 +34,13 @@
 			float: right;
 		}
 
+		@media all and (max-width:500px){
+		    .img-circle { 
+		    	float:none;
+		    	margin: auto;
+		    }
+		}
+
 		.social {
 			color: gray;
 		}
@@ -71,16 +78,13 @@
 	</div>
 
 	<div id="about" class="container">
-		<p>
-			<img 
-				class="img-circle"
-				width="200"
-				height="200"
-				src="/static/img/profile.jpg"
-				alt="Profile picture of me">
-
-			Welcome to bradleykirton.github.io, the personal CV of Bradley Stuart Kirton.		
-		</p>
+		<img 
+			class="img-circle"
+			width="200"
+			height="200"
+			src="/static/img/profile.jpg"
+			alt="Profile picture of me">
+		<p>Welcome to bradleykirton.github.io, the personal CV of Bradley Stuart Kirton.</p>
 		<p>
 			I am a passionate individual who loves programming, data analysis and visualisation, machine learning, 
 			open source software and travelling.
