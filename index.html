@@ -5,12 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Bradley Stuart Kirton</title>
-	
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
 	<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
 
 	<script src="https://d3js.org/d3.v4.min.js"></script>		    
-	<script type="module" src="static/js/main.js"></script>
+	<script src="static/js/main.js"></script>
 
 	<style>
 		svg text {
@@ -31,119 +32,218 @@
 		.img-circle {
 			border-radius: 50%;
 			float: right;
-			max-width: 30%;
+		}
+
+		.social {
+			color: gray;
+		}
+
+		.social:visited {
+			color: gray;
 		}
 	</style>
 </head>
-<body>
-	
+<body>	
 	<div class="header container">
-		<div class="row">
-			<div class="column column-50">
+		<div class="clearfix">
+			<div class="float-left">
 				<h1>Bradley Stuart Kirton</h1>
 			</div>
+
+			<div class="float-right">
+				<a class="social" href="https://twitter.com/bradleykirton" target="_blank" class="nav-link nav-text">
+					<i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
+				</a>
+		    	<a class="social" href="https://github.com/BradleyKirton" target="_blank" class="nav-link nav-text">
+		    		<i class="fa fa-github" aria-hidden="true" title="Github"></i>
+		    	</a>
+		    	<a class="social" href="https://www.linkedin.com/in/bradleykirton" target="_blank" class="nav-link nav-text">
+		    		<i class="fa fa-linkedin" aria-hidden="true" title="Linked-in"></i>
+		    	</a>
+		    	<a class="social" href="https://slides.com/bradleystuartkirton" target="_blank" class="nav-link nav-text">
+		    		<i class="fa fa-square" aria-hidden="true" title="slides.com"></i>
+		    	</a>
+		    	<a class="social" href="mailto:bradleykirton@gmail.com" target="_blank" class="nav-link nav-text">
+		    		<i class="fa fa-envelope" aria-hidden="true" title="Email"></i>
+		    	</a>
+			</div>
 		</div>
+	</div>
+
+	<div id="about" class="container">
 		<p>
 			<img 
 				class="img-circle"
+				width="200"
+				height="200"
 				src="/static/img/profile.jpg"
 				alt="Profile picture of me">
 
-			Currently I am working part time in a commercial finance team helping them out by automating their monthly reporting tasks. I have a degree in Economics and Econometrics and an honours degree in Investment Management but I have always been more interested in computers. My first real dive into programming was at the Johannesburg Stock Exchange. I joined a small team of developers whose job it was to maintain and progress an in house reporting system. Here we used T SQL and VBA to do all kinds of things ranging from data mining to ETLs.
+			Welcome to bradleykirton.github.io, the personal CV of Bradley Stuart Kirton.		
+		</p>
+		<p>
+			I am a passionate individual who loves programming, data analysis and visualisation, machine learning, 
+			open source software and travelling.
 
-			I had found my calling and wanted to learn more. So I looked into a few courses on object oriented programming. I picked one which taught Python through making games. I had just stumbled on my new favorite programming language. Since then I have used python for scripting, web development, web scraping and data munging and given that Python has become one of the defacto languages for data science it has been a perfect fit in my career at the Johannesburg Stock Exchange where data is plentiful. More recently I have begun learning client side web development through TypeScript and Google's angular framework and I am really enjoying it.
-
-			In the time away from my finance job I am working on creating a software development business. The initial product is a data reporting and visualization tool which will encompass all that I have learned while working on these types of projects throughout my career.
+			I am a South African Citizen who is fluent in English and have a basic understanding of Afrikaans.
+	
+			I have over 10 years experience working in Capital Markets and in 2017 started my first business
+			venture <a href="https://clarityanalytics.xyz">Clarity Analytics</a>, a company focused on building
+			data access and visualisation software. 
 		</p>
 
-		<h3>How I keep my skills sharp</h3>
 		<p>
-			To keep my skills sharp I read, listen to podcasts, attend meetups (GPUG, PyData, GDG etc) and work on my own projects. As mentioned above I am in the process of building a data reporting and visualization tool. The tool is powered by the django rest framework, celery, redis and Google's angular 4 framework as well as an in house built data abstraction library called overlay which I plan to open source in the future.
-
-			Here's a rough demo I plan to include in the documentation of overlay overlay-demo.
-		</p>
-
-		<h3>My Interests</h3>
-
-		<p>
-			What I want to do next
-
-			Next I would like to focus on the following:
-
-			Front end web development through Google's angular 4 framework
-			Front end data visualizations with D3
-			Data science, machine learning and data visualization with the Python data analysis stack (Pandas, Matplotlib, Numpy, Scikit-Learn etc)
-			As I mentioned I plan to create my own business and my dream is to work on it full time. However until I can afford to I am happy to live my dual life ;)
+			My future goals include establishing <a href="https://clarityanalytics.xyz">Clarity Analytics</a> as the premiere provider of data science and data related solutions within South African, furthering my studies in data science and programming and contributing more to open source projects.
 		</p>
 		<hr>
-		
-		<!-- Language experience -->
-		<div class="container">
-			<div class="row">
-				<div class="column column-50">
-					<table id="languages">
-						<thead>
-							<tr>
-								<th>Language</th>
-								<th>Years experience</th>
-							</tr>
-						</thead>
+	</div>
 
-						<tbody></tbody>
-					</table>
-				</div>
+	<div id="eduction" class="container">
+		<h3>Education</h3>
+		<div>
+			<h4>University of Johannesburg</h4>
+			<div>
+				<ul>
+					<li>BCOM Honours Investment Management</li>
+					<li>BCOM Economics and Econometrics</li>
+				</ul>
 			</div>
 		</div>
+		
+		<div>
+			<h4>University of South Africa</h4>
+			<div>
+				<ul>
+					<li>BSC Mathematics, Statistics and Applied Mathematics (Incomplete)</li>
+				</ul>
+			</div>
+		</div>
+
+		<div>
+			<h4>edX</h4>
+			<div>
+				<ul>
+					<li>DAT208x: Introduction to Python for Data Science</li>
+				</ul>
+			</div>
+		</div>
+
+		<div>
+			<h4>Georgia Institute of Technology</h4>
+			<div>
+				<ul>
+					<li>Computational Investing, Part 1</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div>
+			<h4>University of Michigan</h4>
+			<div>
+				<ul>
+					<li>Applied Data Science with Python (In progress)</li>
+				</ul>
+			</div>
+		</div>
+
+		<hr>
+	</div>
+		
+	<!-- Language experience -->
+	<div class="container">
+		<h3 id="language-experience">Language related experience</h3>
+
+		<div class="row">
+			<div class="column column-100">
+				<table id="languages">
+					<thead>
+						<tr>
+							<th colspan="2" align="center">Years experience</th>
+						</tr>
+					</thead>
+
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+
+		<h3 id="framework-experience">Library and framework related experience</h3>
+
+		<div class="row">
+			<div class="column column-100">
+				<table id="libraries">
+					<thead>
+						<tr>
+							<th colspan="2" align="center">Years experience</th>
+						</tr>
+					</thead>
+
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+	
+		<hr>
 	</div>
 
 	<div class="container">
-		<h2>Employment History</h2>
+		<h3 id="employment-history">Employment History</h3>
 			<div class="row">
 				<div class="column column-40">
-					<h4>Jan 2014   -   Present</h4>
-					<p>
-						JSE (Senior Automation Specialist)  Edit
-						SQL and VBA (MS Excel and MS Access). Each team member was responsible for the design, requirements gathering, development and documentation. Some key competencies of the role include: - Database design - Requirements gathering - Working with large complex data sets - Report design and development - Data analysis and data mining in SQL and Python - Data modeling - Process design and automation
-					</p>
+					<h4>January 2017 - Present</h4>
+					<p>Consultant at JSE Limited within the Commercial Finance team.</p>
 				</div>
 
 				<div class="column column-40 column-offset-10">
-					<h4>Jan 2014   -   Dec 2016</h4>
-					<p>
-						JSE Limited (Senior Automation Specialist)  Edit
-						SQL and VBA (MS Excel and MS Access). Each team member was responsible for the design, requirements gathering, development and documentation. Some key competencies of the role include: - Database design - Requirements gathering - Working with large complex data sets - Report design and development - Data analysis and data mining in SQL and Python - Data modeling - Process design and automation
-					</p>
+					<h4>January 2014 - December 2016</h4>
+					<p>Senior Automation Specialist at JSE Limited servicing the Capital Markets division.</p>
 				</div>
 			</div>
-			
-
+	
 			<div class="row">
 				<div class="column column-40">
-					<h4>Aug 2011   -   Dec 2013</h4>
-					<p>
-						JSE Limited (Automation Specialist)  Edit
-						SQL and VBA (MS Excel and MS Access). Each team member was responsible for the design, requirements gathering, development and documentation. Some key competencies of the role include: - Database design - Requirements gathering - Working with large complex data sets - Report design and development - Data analysis and data mining in SQL and Python - Data modeling - Process design and automation
-					</p>
+					<h4>August 2011 - December 2013</h4>
+					<p>Automation Specialist at JSE Limited servicing the Capital Markets division.</p>
 				</div>
 
 				<div class="column column-40 column-offset-10">
-					<h4>Jan 2010   -   Dec 2010</h4>
-					<p>
-						JSE Limited (Junior Business Analyst)  Edit
-						After a year in the "class of" program I was offered a position in the Business Development Team in the Equities Market. Here we focused on projects and initiatives within the Equity Market including: - The introduction of Hidden Order functionality - Retail investment initiatives - Analysis and reporting - Research and presentation
-					</p>
+					<h4>January - December 2010</h4>
+					<p>Junior Business Analyst at JSE Limited working in the Capital Markets division.</p>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="column column-40">
-					<h4>Jan 2009   -   Dec 2009</h4>
-					<p>
-						JSE Limited (Class of 2009)  Edit
-						The "class of" program was the JSE graduate program. Successful applicants are placed in teams within the business and are provided exposure to parts of the business. The role involved mostly learning the ropes etc.
-					</p>
+					<h4>January - December 2009</h4>
+					<p>Class of 2009 JSE Limited.</p>
 				</div>
 			</div>
+
+			<p>
+				For the longest time at the JSE I have worked in a data intensive role within a team responsible for providing a reporting solution to internal and external clients. Some of the larger projects for which I was responsible included orders data and top of book market statistics reporting and research, the equity market billing methodology change to a value based pricing model and the bond market billing methodology change and implementation of an interim invoicing solution.
+			</p>
+
+			<p>
+				The orders data and top of book market data project involved providing a reporting solution for the orders data within the equity market. The challenge in this space is the volume of data (At the time the JSE would process about 8 to 10 million records daily). The solution provided reporting on a variety of metrics including the spreads per instrument. In addition to providing the reporting solution I was responsible for conducting research and analysis on the data. Some of this research included the effects of the implementation of collocation in the equity market and it's impact on spreads and order sizes as well as per second order rates.
+			</p>
+			<p>
+				In the cash equities and bond pricing projects my role included creating a solution which could model different billing methodologies. The model output could then be analysed and compared to clients actual spend in various dimensions including trade type, trader and member firm client. During the equities methodology change the JSE followed a co-creation approach with clients. This involved coming to consensus and narrowing down the proposed methodologies with market participants and then running various scenarios. These scenarios were anonymised and presented at a high level with the forum and then again presented to each member firm on an individual basis. Given this approach the JSE was able to successfully change the methodology and prepare clients for the change so that they could adjust their behaviour to minimize the impact of the change. This methodology change paved the way for new types of business which provided the JSE with record returns in the coming years. The challenges faced in this project were the volume of data, the exchanged processed approx. 500k - 800k billable events per day, as well as creating a solution which could run scenarios in a configurable way so that no code changes would be necessary to create new billing models.
+			</p>
+			<p>
+				After successfully changing the methodologies for the equity market trading and clearing &amp; settlement billing streams the same modeling system was enhanced to assist with the change of the spot bond market billing methodology. The volumes of data were not a challenge this time, the bond market only processed about 80k transactions per day, the challenges were more around finding a balance between the needs of business and the overall JSE pricing philosophy. After successfully finding the appropriate balance I was asked to generate the data required for the invoicing system from the modeling solution.
+			</p>
 	</div>
+
 </body>
+
+<footer>
+	<div class="container">
+		<hr>
+		<div class="clearfix">
+			<p class="float-left">© 2018 Bradley Stuart Kirton</p>
+			<a class="float-right" href="#">Back to top</p>
+		</div>
+	</div>
+</footer>
+
 </html>

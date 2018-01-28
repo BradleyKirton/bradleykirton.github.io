@@ -1,9 +1,21 @@
 {
 	"languages": [
-		{"name": "Python", "years": 5},
-		{"name": "Javascript", "years": 2},
-		{"name": "Typescript", "years": 1},
-		{"name": "SQL", "years": 7},
-		{"name": "VBA", "years": 7}
+		{"name": "Python", "year": 2012, "tooltip": "Expert"},
+		{"name": "JavaScript", "year": 2016, "tooltip": "Intermediate"},
+		{"name": "TypeScript", "year": 2017, "tooltip": "Intermediate"},
+		{"name": "SQL", "year": 2011, "tooltip": "Expert"},
+		{"name": "VBA", "year": 2010, "tooltip": "Expert"}
+	],
+	"libraries": [
+		{"name": "Django", "year": 2017, "tooltip": "Expert"},
+		{"name": "Django Rest Framework", "year": 2017, "tooltip": "Expert"},
+		{"name": "Jupyter Notebook", "year": 2015, "tooltip": "Expert"},
+		{"name": "Git", "year": 2016, "tooltip": "Intermediate"},
+		{"name": "Pandas", "year": 2012, "tooltip": "Expert"},
+		{"name": "Scikit Learn", "year": 2015, "tooltip": "Intermediate"},
+		{"name": "Numpy", "year": 2012, "tooltip": "Expert"},
+		{"name": "Matplotlib", "year": 2012, "tooltip": "Expert"},
+		{"name": "Angular 5", "year": 2017, "tooltip": "Beginner"},
+		{"name": "D3", "year": 2017, "tooltip": "Beginner"}
 	]
 }
